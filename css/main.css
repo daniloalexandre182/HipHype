@@ -1,0 +1,40 @@
+h1{
+    display: none;
+}
+
+main{
+    padding-top: 107px;
+}
+
+section{
+    padding: 30px !important;
+    padding: 1.875rem !important;
+}
+
+article{
+    padding-top: 0.8rem;
+}
+.categoria{
+    background-color: aqua;
+    padding: 2px;
+    margin-right: 2px;
+}
+
+.categoria:hover{
+    text-decoration: none;
+}
+
+.autor:hover{
+    text-decoration: none;
+}
+
+.titulo-section{
+    padding: 3px;
+    padding: 0.1875rem;
+}
+
+h2{
+    padding-bottom: 2px;
+    padding-bottom: 0.125rem;
+    border-bottom: 3px solid #007bff!important;
+}

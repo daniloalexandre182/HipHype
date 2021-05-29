@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- imports css e js -->
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Hip-Hype</title>
+</head>
+    <body>
+        <!-- header -->
+        <header>
+
+            <!-- nav -->
+            <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+                <!-- imagem do logo -->
+                <a class="navbar-brand" href="#">
+                    <h1>Hip-Hype</h1><img src="imagens/logo.png" alt="Logo da Hip-Hype">
+                </a>
+                <!-- botão sanduiche -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#textoNavbar" aria-controls="textoNavbar" aria-expanded="false" aria-label="Alterna navegação">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="textoNavbar">
+                    <!-- itens do menu -->
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <!-- pagina atual -->
+                            <a class="nav-link h6" href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link h6" href="musica.html">MÚSICAS<span class="sr-only">(Página atual)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link h6" href="noticia.html">NOTÍCIAS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link h6" href="evento.html">EVENTOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link h6" href="parceiros.html">PARCEIROS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link h6" href="contato.html">CONTATO</a>
+                        </li>
+                    </ul>
+                    <!-- //itens do menu -->
+                    <!-- redes sociais -->
+                    <span class="navbar-text">
+                        Icones das redes sociais.
+                    </span>
+                    <!-- //redes sociais -->
+                </div>
+            </nav>
+            <!-- //nav -->
+
+        </header>
+        <!-- //header -->
+
+
+        <!-- main -->
+        <main>
+
+            <!-- carrossel -->
+            <section id="carrossel">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <!-- insere os indicadores abaixo, um para cada imagem -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <!-- insere as imagens -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="imagens/slider-1.png" alt="Primeiro Slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="imagens/slider-2.png" alt="Segundo Slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="imagens/slider-3.png" alt="Terceiro Slide">
+                        </div>
+                    </div>
+                    <!-- botões de controle -->
+                    <!-- proximo -->
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <!-- anterior -->
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Próximo</span>
+                    </a>
+                </div>
+            </section>
+            <!-- carrossel -->
+
+
+            <!-- musica -->
+            <section id="musica">
+                <div class="container-fluid">    
+                    <h2><span class="titulo-section bg-primary">Músicas</span></h2>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <article class="border-bottom">
+                                <div class="row">
+                                    <figure class="col-lg-4">
+                                        <a href="#"><img src="imagens/noticias-1.jpg" class="img-fluid rounded mx-auto d-block" alt="publicacao 1" /></a>
+                                    </figure>
+                                    <div class="col-lg-8">
+                                        <h3><a href="publicacao-1.html" class="text-dark">Quer ter a chance de se tornar jogador profissional? Conheça o IDM Gaming ExperienceXTO 01</a></h3>
+                                        <p><a href="#" class="categoria text-dark font-weight-bold" alt="Categoria da no notícia">Categoria</a> <a href="autores.html" class="autor text-info font-weight-bold">Autor da publicação</a><span class="data-noticia font-weight-light"> - 20/08/2018</span></p>
+                                        <p>Revelar novos talentos no cenário vem sendo um ponto muito discutido e abrodado pelas equipes brasileiras nos últimos meses. Revelar novos jogadores é algo no cenário vem sendo um ponto muito discutido e abrodado pelas equipes brasileiras nos últimos meses. Revelar novos no cenário vem sendo um ponto muito discutido e abrodado pelas equipes brasileiras nos últimos meses. Revelar novos no cenário vem sendo um ponto muito discutido e abrodado pelas equipes brasileiras nos últimos meses. Revelar novos</p>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6">
+                            <article class="border-bottom">
+                                <div class="row">
+                                    <figure class="col-lg-4">
+                                        <a href="#"><img src="imagens/noticias-1.jpg" class="img-fluid rounded mx-auto d-block" alt="publicacao 1" /></a>
+                                    </figure>
+                                    <div class="col-lg-8">
+                                        <h3><a href="publicacao-1.html" class="text-dark">Quer ter a chance de se tornar jogador profissional? Conheça o IDM Gaming ExperienceXTO 01</a></h3>
+                                        <p><a href="#" class="categoria text-dark font-weight-bold" alt="Categoria da no notícia">Categoria</a> <a href="autores.html" class="autor text-info font-weight-bold">Autor da publicação</a><span class="data-noticia font-weight-light"> - 20/08/2018</span></p>
+                                        <p>Revelar novos talentos no cenário vem sendo um ponto muito discutido e abrodado pelas equipes brasileiras nos últimos meses. Revelar novos jogadores é algo no cenário vem sendo um ponto muito discutido e abrodado pelas equipes brasileiras nos últimos meses. Revelar novos no cenário vem sendo um ponto muito discutido e abrodado pelas equipes brasileiras nos últimos meses. Revelar novos no cenário vem sendo um ponto muito discutido e abrodado pelas equipes brasileiras nos últimos meses. Revelar novos</p>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-12 col-md-6">
+                            <article class="border-bottom">
+                                <div class="row">
+                                    <figure class="col-lg-3">
+                                        <a href="#"><img src="imagens/noticias-1.jpg" class="img-fluid rounded mx-auto d-block" alt="publicacao 1" /></a>
+                                    </figure>
+                                    <div class="col-lg-9">
+                                        <h3><a href="publicacao-1.html" class="text-dark">Quer ter a chance de se tornar jogador profissional? Conheça o IDM Gaming ExperienceXTO 01</a></h3>
+                                        <p><a href="#" class="categoria text-dark font-weight-bold" alt="Categoria da no notícia">Categoria</a> <a href="autores.html" class="autor text-info font-weight-bold">Autor da publicação</a><span class="data-noticia font-weight-light"> - 20/08/2018</span></p>
+                                        <p>Revelar novos talentos no cenário vem sendo um ponto muito discutido e abrodado pelas equipes brasileiras nos últimos meses. Revelar novos jogadores é algo no cenário vem sendo um ponto muito discutido e abrodado pelas equipes brasileiras nos últimos meses. Revelar novos no cenário vem sendo um ponto muito discutido e abrodado pelas equipes brasileiras nos últimos meses. Revelar novos no cenário vem sendo um ponto muito discutido e abrodado pelas equipes brasileiras nos últimos meses. Revelar novos</p>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="col-lg-12 col-md-6">
+                            <article class="border-bottom">
+                                <div class="row">
+                                    <figure class="col-lg-3">
+                                        <a href="#"><img src="imagens/noticias-1.jpg" class="img-fluid rounded mx-auto d-block" alt="publicacao 1" /></a>
+                                    </figure>
+                                    <div class="col-lg-9">
+                                        <h3><a href="publicacao-1.html" class="text-dark">Quer ter a chance de se tornar jogador profissional? Conheça o IDM Gaming ExperienceXTO 01</a></h3>
+                                        <p><a href="#" class="categoria text-dark font-weight-bold" alt="Categoria da no notícia">Categoria</a> <a href="autores.html" class="autor text-info font-weight-bold">Autor da publicação</a><span class="data-noticia font-weight-light"> - 20/08/2018</span></p>
+                                        <p>Revelar novos talentos no cenário vem sendo um ponto muito discutido e abrodado pelas equipes brasileiras nos últimos meses. Revelar novos jogadores é algo no cenário vem sendo um ponto muito discutido e abrodado pelas equipes brasileiras nos últimos meses. Revelar novos no cenário vem sendo um ponto muito discutido e abrodado pelas equipes brasileiras nos últimos meses. Revelar novos no cenário vem sendo um ponto muito discutido e abrodado pelas equipes brasileiras nos últimos meses. Revelar novos</p>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                        
+                    <div class="row">
+                        <div class="col-lg-12 col-md-6">
+                            <article class="border-bottom">
+                                <div class="row">
+                                    <figure class="col-lg-3">
+                                        <a href="#"><img src="imagens/noticias-1.jpg" class="img-fluid rounded mx-auto d-block" alt="publicacao 1" /></a>
+                                    </figure>
+                                    <div class="col-lg-9">
+                                        <h3><a href="publicacao-1.html" class="text-dark">Quer ter a chance de se tornar jogador profissional? Conheça o IDM Gaming ExperienceXTO 01</a></h3>
+                                        <p><a href="#" class="categoria text-dark font-weight-bold" alt="Categoria da no notícia">Categoria</a> <a href="autores.html" class="autor text-info font-weight-bold">Autor da publicação</a><span class="data-noticia font-weight-light"> - 20/08/2018</span></p>
+                                        <p>Revelar novos talentos no cenário vem sendo um ponto muito discutido e abrodado pelas equipes brasileiras nos últimos meses. Revelar novos jogadores é algo no cenário vem sendo um ponto muito discutido e abrodado pelas equipes brasileiras nos últimos meses. Revelar novos no cenário vem sendo um ponto muito discutido e abrodado pelas equipes brasileiras nos últimos meses. Revelar novos no cenário vem sendo um ponto muito discutido e abrodado pelas equipes brasileiras nos últimos meses. Revelar novos</p>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="col-lg-12 col-md-6">
+                            <article class="border-bottom">
+                                <div class="row">
+                                    <figure class="col-lg-3">
+                                        <a href="#"><img src="imagens/noticias-1.jpg" class="img-fluid rounded mx-auto d-block" alt="publicacao 1" /></a>
+                                    </figure>
+                                    <div class="col-lg-9">
+                                        <h3><a href="publicacao-1.html" class="text-dark">Quer ter a chance de se tornar jogador profissional? Conheça o IDM Gaming ExperienceXTO 01</a></h3>
+                                        <p><a href="#" class="categoria text-dark font-weight-bold" alt="Categoria da no notícia">Categoria</a> <a href="autores.html" class="autor text-info font-weight-bold">Autor da publicação</a><span class="data-noticia font-weight-light"> - 20/08/2018</span></p>
+                                        <p>Revelar novos talentos no cenário vem sendo um ponto muito discutido e abrodado pelas equipes brasileiras nos últimos meses. Revelar novos jogadores é algo no cenário vem sendo um ponto muito discutido e abrodado pelas equipes brasileiras nos últimos meses. Revelar novos no cenário vem sendo um ponto muito discutido e abrodado pelas equipes brasileiras nos últimos meses. Revelar novos no cenário vem sendo um ponto muito discutido e abrodado pelas equipes brasileiras nos últimos meses. Revelar novos</p>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                        
+                    <div class="row">
+                        <div class="col-lg-12 col-md-6">
+                            <article class="border-bottom">
+                                <div class="row">
+                                    <figure class="col-lg-3">
+                                        <a href="#"><img src="imagens/noticias-1.jpg" class="img-fluid rounded mx-auto d-block" alt="publicacao 1" /></a>
+                                    </figure>
+                                    <div class="col-lg-9">
+                                        <h3><a href="publicacao-1.html" class="text-dark">Quer ter a chance de se tornar jogador profissional? Conheça o IDM Gaming ExperienceXTO 01</a></h3>
+                                        <p><a href="#" class="categoria text-dark font-weight-bold" alt="Categoria da no notícia">Categoria</a> <a href="autores.html" class="autor text-info font-weight-bold">Autor da publicação</a><span class="data-noticia font-weight-light"> - 20/08/2018</span></p>
+                                        <p>Revelar novos talentos no cenário vem sendo um ponto muito discutido e abrodado pelas equipes brasileiras nos últimos meses. Revelar novos jogadores é algo no cenário vem sendo um ponto muito discutido e abrodado pelas equipes brasileiras nos últimos meses. Revelar novos no cenário vem sendo um ponto muito discutido e abrodado pelas equipes brasileiras nos últimos meses. Revelar novos no cenário vem sendo um ponto muito discutido e abrodado pelas equipes brasileiras nos últimos meses. Revelar novos</p>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="col-lg-12 col-md-6">
+                            <article class="border-bottom">
+                                <div class="row">
+                                    <figure class="col-lg-3">
+                                        <a href="#"><img src="imagens/noticias-1.jpg" class="img-fluid rounded mx-auto d-block" alt="publicacao 1" /></a>
+                                    </figure>
+                                    <div class="col-lg-9">
+                                        <h3><a href="publicacao-1.html" class="text-dark">Quer ter a chance de se tornar jogador profissional? Conheça o IDM Gaming ExperienceXTO 01</a></h3>
+                                        <p><a href="#" class="categoria text-dark font-weight-bold" alt="Categoria da no notícia">Categoria</a> <a href="autores.html" class="autor text-info font-weight-bold">Autor da publicação</a><span class="data-noticia font-weight-light"> - 20/08/2018</span></p>
+                                        <p>Revelar novos talentos no cenário vem sendo um ponto muito discutido e abrodado pelas equipes brasileiras nos últimos meses. Revelar novos jogadores é algo no cenário vem sendo um ponto muito discutido e abrodado pelas equipes brasileiras nos últimos meses. Revelar novos no cenário vem sendo um ponto muito discutido e abrodado pelas equipes brasileiras nos últimos meses. Revelar novos no cenário vem sendo um ponto muito discutido e abrodado pelas equipes brasileiras nos últimos meses. Revelar novos</p>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- //main -->
+
+
+        <!-- footer -->
+        <footer>
+            <div class="container-fluid p-4 bg-dark">
+                <p class="text-white lead text-center">Copyright © 2019 Hip Hype - Desenvolvido por Danilo M. Alexandre</p>
+            </div>
+        </footer>
+        <!-- //footer -->
+
+        <!-- BOOTSTRAP -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
+</html>
